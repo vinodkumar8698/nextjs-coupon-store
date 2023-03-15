@@ -4,43 +4,43 @@ import { Card, Grid, Row, Text } from "@nextui-org/react";
 export default function MensOffer() {
     const list = [
         {
-            title: "Orange",
-            img: "https://nextui.org/images/fruit-1.jpeg",
+            title: "Nantucket",
+            img: "https://www.codespotr.com/wp-content/uploads/2023/01/Nantucket-Whaler-Code.png",
             price: "$5.50",
         },
         {
-            title: "Tangerine",
-            img: "https://nextui.org/images/fruit-2.jpeg",
+            title: "Dept-Anonym",
+            img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/06/Dept-Anonym-Offer.png",
             price: "$3.00",
         },
         {
-            title: "Cherry",
-            img: "https://nextui.org/images/fruit-3.jpeg",
+            title: "Affliction",
+            img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/06/Affliction-Clothing-Sale.png",
             price: "$10.00",
         },
         {
-            title: "Lemon",
-            img: "https://nextui.org/images/fruit-4.jpeg",
+            title: "X-Ray-Jeans",
+            img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/06/X-Ray-Jeans-Sale.png",
             price: "$5.30",
         },
         {
-            title: "Avacado",
-            img: "https://nextui.org/images/fruit-4.jpeg",
+            title: "Nantucket",
+            img: "https://www.codespotr.com/wp-content/uploads/2023/01/Nantucket-Whaler-Code.png",
             price: "$5.50",
         },
         {
-            title: "Tangerine",
-            img: "https://nextui.org/images/fruit-6.jpeg",
+            title: "Dept-Anonym",
+            img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/06/Dept-Anonym-Offer.png",
             price: "$3.00",
         },
         {
-            title: "Cherry",
-            img: "https://nextui.org/images/fruit-7.jpeg",
+            title: "Affliction",
+            img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/06/Affliction-Clothing-Sale.png",
             price: "$10.00",
         },
         {
-            title: "Lemon",
-            img: "https://nextui.org/images/fruit-8.jpeg",
+            title: "X-Ray-Jeans",
+            img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/06/X-Ray-Jeans-Sale.png",
             price: "$5.30",
         }
 
@@ -54,7 +54,7 @@ export default function MensOffer() {
             <Grid.Container gap={2} justify="flex-start">
                 {list.map((item, index) => (
                     <Grid xs={12} sm={3} key={index}>
-                        <Card isPressable isHoverable  >
+                        <Card isPressable isHoverable disableRipple  >
                             <Card.Body css={{ p: 0 }} >
                                 <Card.Image
                                     src={item?.img}

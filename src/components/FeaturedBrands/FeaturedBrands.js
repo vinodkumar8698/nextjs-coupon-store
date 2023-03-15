@@ -10,9 +10,9 @@ const styles = {
         cursor: "pointer",
     },
     featuredImageC: {
-        boxShadow: "rgb(234 221 221) -4px 5px 20px 0px",
-        width: "260px",
-        height: "260px",
+        boxShadow: "rgb(254 245 245) -4px 1px 20px 0p",
+        width: "225px",
+        height: "225px",
         borderRadius: "50%",
         cursor: "pointer",
         display: "flex",
@@ -22,14 +22,14 @@ const styles = {
 }
 const FeaturedBrands = () => {
     const images = [
-        { id: 1, img: "https://i.pravatar.cc/150?u=a04258114e29026702d" },
-        { id: 2, img: "https://i.pravatar.cc/150?u=a04258114e29026702d" },
-        { id: 3, img: "https://i.pravatar.cc/150?u=a04258114e29026702d" },
-        { id: 4, img: "https://i.pravatar.cc/150?u=a04258114e29026702d" },
-        { id: 5, img: "https://i.pravatar.cc/150?u=a04258114e29026702d" },
-        { id: 6, img: "https://i.pravatar.cc/150?u=a04258114e29026702d" },
-        { id: 7, img: "https://i.pravatar.cc/150?u=a04258114e29026702d" },
-        { id: 8, img: "https://i.pravatar.cc/150?u=a04258114e29026702d" }
+        { id: 1, img: "https://www.couponcodetreasure.com/wp-content/uploads/2021/04/JCPenney-Stores.png" },
+        { id: 2, img: "https://www.couponcodetreasure.com/wp-content/uploads/2021/09/American-Eagle-Store.png" },
+        { id: 3, img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/10/Shutterfly-Store.png" },
+        { id: 4, img: "https://www.couponcodetreasure.com/wp-content/uploads/2021/04/TOMS-Shoes-Store.png" },
+        { id: 5, img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/01/Walmart-Store.png" },
+        { id: 6, img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/01/Walgreens-Store.png" },
+        { id: 7, img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/01/Walgreens-Store.png" },
+        { id: 8, img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/01/Snapfish-Store.png" }
     ]
     return (
         <div>

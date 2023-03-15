@@ -1,9 +1,10 @@
-.h2Tag{
+.h2Tag {
     color: grey;
 }
+
 .featuredImageC :hover {
-    width: 250px; 
-     height: 250px;
+    width: 250px;
+    height: 250px;
     transform: scale(1);
-    animation: ease-in-out;
+    transition: 0.2s ease-in-out;
 }

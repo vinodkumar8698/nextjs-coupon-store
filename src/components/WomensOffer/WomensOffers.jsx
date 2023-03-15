@@ -3,44 +3,44 @@ import { Card, Grid, Row, Text } from "@nextui-org/react";
 export default function WomensOffers() {
     const list = [
         {
-            title: "Orange",
-            img: "https://nextui.org/images/fruit-1.jpeg",
-            price: "$5.50",
+            title: "Florence",
+            img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/08/Florence-by-Mills-Coupon-Code.png",
+            price: "click to see",
         },
         {
-            title: "Tangerine",
-            img: "https://nextui.org/images/fruit-2.jpeg",
-            price: "$3.00",
+            title: "moodytiger",
+            img: "https://www.codespotr.com/wp-content/uploads/2023/03/moodytiger-Coupon-Code.png",
+            price: "see",
         },
         {
-            title: "Cherry",
-            img: "https://nextui.org/images/fruit-3.jpeg",
-            price: "$10.00",
+            title: "moodytiger",
+            img: "https://www.codespotr.com/wp-content/uploads/2023/03/moodytiger-Coupon-Code.png",
+            price: "click",
         },
         {
-            title: "Lemon",
-            img: "https://nextui.org/images/fruit-4.jpeg",
-            price: "$5.30",
+            title: "BERLOOK",
+            img: "https://www.codespotr.com/wp-content/uploads/2023/02/BERLOOK-Code.png",
+            price: "BERLOOK",
         },
         {
-            title: "Avacado",
-            img: "https://nextui.org/images/fruit-4.jpeg",
-            price: "$5.50",
+            title: "Florence",
+            img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/08/Florence-by-Mills-Coupon-Code.png",
+            price: "click to see",
         },
         {
-            title: "Tangerine",
-            img: "https://nextui.org/images/fruit-6.jpeg",
-            price: "$3.00",
+            title: "moodytiger",
+            img: "https://www.codespotr.com/wp-content/uploads/2023/03/moodytiger-Coupon-Code.png",
+            price: "see",
         },
         {
-            title: "Cherry",
-            img: "https://nextui.org/images/fruit-7.jpeg",
-            price: "$10.00",
+            title: "moodytiger",
+            img: "https://www.codespotr.com/wp-content/uploads/2023/03/moodytiger-Coupon-Code.png",
+            price: "click",
         },
         {
-            title: "Lemon",
-            img: "https://nextui.org/images/fruit-8.jpeg",
-            price: "$5.30",
+            title: "BERLOOK",
+            img: "https://www.codespotr.com/wp-content/uploads/2023/02/BERLOOK-Code.png",
+            price: "BERLOOK",
         }
 
     ];
@@ -53,7 +53,7 @@ export default function WomensOffers() {
             <Grid.Container gap={2} justify="flex-start">
                 {list.map((item, index) => (
                     <Grid xs={12} sm={3} key={index}>
-                        <Card isPressable>
+                        <Card isHoverable isPressable disableRipple>
                             <Card.Body css={{ p: 0 }}>
                                 <Card.Image
                                     src={item?.img}

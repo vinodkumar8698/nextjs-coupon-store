@@ -5,20 +5,29 @@ import { Container, Navbar } from "@nextui-org/react";
 // import { Container } from '@mui/system';
 import Image from 'next/image';
 const images = [
-    "/banner_home-290x580.jpeg",
-    "/banner_home-290x580 (1).jpeg",
-    "/banner_home-290x580 (2).jpeg",
-    "/banner_home-290x580 (3).jpeg",
+    { id: 1, img: "https://thumbs.dreamstime.com/b/print-213104691.jpg" },
+    { id: 2, img: "https://img.freepik.com/premium-vector/usa-labor-day-gift-promotion-coupon-banner-background-elegant-labor-day-voucher_255246-887.jpg?w=2000" },
+    { id: 3, img: "https://thumbs.dreamstime.com/b/print-213104691.jpg" },
+    { id: 4, img: "https://img.freepik.com/premium-vector/usa-labor-day-gift-promotion-coupon-banner-background-elegant-labor-day-voucher_255246-887.jpg?w=2000" },
 ]
-const img1 = "/banner_home-290x580.jpeg"
+
+const styles = {
+    caroselImage: {
+        width: "100%",
+        height: "auto",
+        objectFit: "fill",
+        objectPosition: "center",
+        borderRadius: "10px"
+    }
+}
 const CarouselComp = () => {
     return (
-        <Container responsive xl fluid >
+        <Container responsive xl fluid  >
             <div style={{ marginTop: "20px" }}>
-                <Carousel autoPlay infiniteLoop interval={3000} showArrows showIndicators={false} stopOnHover centerMode >
+                <Carousel autoPlay swipeable showStatus={false} interval={3000} infiniteLoop showArrows showIndicators={false} stopOnHover centerMode >
                     {images.map(img => (
-                        <div key={img}>
-                            <Image src={img} alt="navbar logo"
+                        <div key={img.id}>
+                            <Image src={img.img} alt="navbar logo" unoptimized style={styles.caroselImage}
                                 width={250}
                                 height={380}
                                 blurDataURL="data:..."
