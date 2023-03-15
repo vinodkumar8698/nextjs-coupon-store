@@ -1,6 +1,8 @@
 // 1. import `NextUIProvider` component
 import { NextUIProvider, createTheme } from '@nextui-org/react';
 import "../styles/Global.css"
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 const theme = createTheme({
   type: "light", // it could be "light" or "dark"
   theme: {

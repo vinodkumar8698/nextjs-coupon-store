@@ -2,9 +2,27 @@
     color: grey;
 }
 
+.featuredImage {
+    box-shadow: 0 12px 20px 6px #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.featuredImageC {
+    box-shadow: rgb(216, 189, 189) - 4px 5px 20px 0px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .featuredImageC :hover {
-    width: 250px;
-    height: 250px;
+    width: 210px;
+    height: 210px;
     transform: scale(1);
     transition: 0.2s ease-in-out;
+    box-shadow: rgb(195, 186, 186) - 4px 5px 20px 0px;
 }

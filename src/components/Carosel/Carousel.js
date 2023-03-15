@@ -29,7 +29,7 @@ const CarouselComp = () => {
                         <div key={img.id}>
                             <Image src={img.img} alt="navbar logo" unoptimized style={styles.caroselImage}
                                 width={250}
-                                height={380}
+                                height={180}
                                 blurDataURL="data:..."
                                 placeholder="blur" />
                         </div>
