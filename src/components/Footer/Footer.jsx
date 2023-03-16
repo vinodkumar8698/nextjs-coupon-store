@@ -37,7 +37,7 @@ export default function App() {
                         <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>
                                 <MDBIcon icon="gem" className="me-3" />
-                                Company name
+                                Wow Coupons
                             </h6>
                             <p>
                                 Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
@@ -63,7 +63,7 @@ export default function App() {
                                 </a>
                             </p>
                             <p>
-                                <a href='#!' className='text-reset'>
+                                <a href='#!' className='text-reset '>
                                     Laravel
                                 </a>
                             </p>

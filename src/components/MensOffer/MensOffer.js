@@ -4,43 +4,43 @@ import { Card, Grid, Row, Text } from "@nextui-org/react";
 export default function MensOffer() {
     const list = [
         {
-            title: "Nantucket",
-            img: "https://www.codespotr.com/wp-content/uploads/2023/01/Nantucket-Whaler-Code.png",
+            title: "Watches",
+            img: "https://rukminim1.flixcart.com/image/612/612/xif0q/watch/w/s/d/-original-imagnqcjgxcxmfjb.jpeg?q=70",
             price: "$5.50",
         },
         {
-            title: "Dept-Anonym",
-            img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/06/Dept-Anonym-Offer.png",
+            title: "Shoes",
+            img: "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/d/o/e/9-5g-845-campus-mod-blu-wht-original-imag4g3xnanhz7zk-bb.jpeg?q=70",
             price: "$3.00",
         },
         {
-            title: "Affliction",
-            img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/06/Affliction-Clothing-Sale.png",
+            title: "Tshirts",
+            img: "https://rukminim1.flixcart.com/image/612/612/k05ljm80/t-shirt/k/w/r/xl-poly-510-11-tqh-original-imafkygaynurrcyj.jpeg?q=70",
             price: "$10.00",
         },
         {
-            title: "X-Ray-Jeans",
-            img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/06/X-Ray-Jeans-Sale.png",
+            title: "Wallets",
+            img: "https://rukminim1.flixcart.com/image/612/612/xif0q/wallet-card-wallet/a/k/w/kyle-1-4-5-ubf130blr1037-8-wallet-urban-forest-3-7-original-imagkcafzqmde8gb.jpeg?q=70",
             price: "$5.30",
         },
         {
-            title: "Nantucket",
-            img: "https://www.codespotr.com/wp-content/uploads/2023/01/Nantucket-Whaler-Code.png",
+            title: "Jewellers",
+            img: "https://rukminim1.flixcart.com/image/612/612/xif0q/pendant-locket/j/8/b/na-na-2-pcs-silver-heart-matching-couple-pendant-faizam-original-imaghskvtez6gguw.jpeg?q=70",
             price: "$5.50",
         },
         {
-            title: "Dept-Anonym",
-            img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/06/Dept-Anonym-Offer.png",
+            title: "Jeans",
+            img: "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/v/n/l/32-bhdilv22591-light-tone-being-human-original-imagmtcd2p5ejdwn.jpeg?q=70",
             price: "$3.00",
         },
         {
-            title: "Affliction",
-            img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/06/Affliction-Clothing-Sale.png",
+            title: "Hoodies",
+            img: "https://rukminim1.flixcart.com/image/612/612/xif0q/sweatshirt/k/q/q/5-6-years-522058348-4-monte-carlo-original-imagkjv6ugwykzyg.jpeg?q=70",
             price: "$10.00",
         },
         {
-            title: "X-Ray-Jeans",
-            img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/06/X-Ray-Jeans-Sale.png",
+            title: "Shirts",
+            img: "https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/t/l/2/xl-men-regular-super-slim-fit-striped-casual-shirt-icome-original-imagf9q2epye5kks-bb.jpeg?q=70",
             price: "$5.30",
         }
 
@@ -60,7 +60,7 @@ export default function MensOffer() {
                                     src={item?.img}
                                     objectFit="cover"
                                     width="100%"
-                                    height={240}
+                                    height={260}
                                     alt={item.title}
                                 />
                             </Card.Body>

@@ -14,7 +14,7 @@ const images = [
 const styles = {
     caroselImage: {
         width: "100%",
-        height: "auto",
+        height: "45vh",
         objectFit: "fill",
         objectPosition: "center",
         borderRadius: "10px"
@@ -24,15 +24,15 @@ const CarouselComp = () => {
     return (
         // <Container responsive xl fluid  >
         <div style={{ marginTop: "20px" }}>
-            <Carousel autoPlay swipeable showStatus={false} interval={3000} infiniteLoop showArrows showIndicators={false} centerMode  >
+            <Carousel autoPlay swipeable showStatus={false} showThumbs={true} interval={3000} infiniteLoop showArrows showIndicators={false} centerMode  >
                 {images.map(img => (
-                    <div key={img.id}>
-                        <Image src={img.img} alt="navbar logo" unoptimized style={styles.caroselImage}
-                            width={250}
-                            height={180}
-                            blurDataURL="data:..."
-                            placeholder="blur" />
-                    </div>
+                    // <div key={img.id}>
+                    <Image key={img.id} src={img.img} alt="navbar logo" unoptimized style={styles.caroselImage}
+                        width={250}
+                        height={150}
+                        blurDataURL="data:..."
+                        placeholder="blur" />
+                    // </div>
                 ))}
             </Carousel>
         </div>

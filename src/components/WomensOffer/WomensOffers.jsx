@@ -3,43 +3,43 @@ import { Card, Grid, Row, Text } from "@nextui-org/react";
 export default function WomensOffers() {
     const list = [
         {
-            title: "Florence",
-            img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/08/Florence-by-Mills-Coupon-Code.png",
+            title: "Bracelet",
+            img: "https://rukminim1.flixcart.com/image/612/612/jv44mfk0/bangle-bracelet-armlet/w/t/z/adjustable-1-ybbn-91363-you-bella-original-imaeqq3bged7huhz.jpeg?q=70",
             price: "click to see",
         },
         {
-            title: "moodytiger",
-            img: "https://www.codespotr.com/wp-content/uploads/2023/03/moodytiger-Coupon-Code.png",
+            title: "Deo-Drants",
+            img: "https://rukminim1.flixcart.com/image/612/612/kalecnk0pkrrdj/personal-care/d/h/p/300-st-romance-2-secret-temptation-original-imafs5matz8fkzjm.jpeg?q=70",
             price: "see",
         },
         {
-            title: "moodytiger",
-            img: "https://www.codespotr.com/wp-content/uploads/2023/03/moodytiger-Coupon-Code.png",
+            title: "Scarf",
+            img: "https://rukminim1.flixcart.com/image/612/612/l572ufk0/scarf/3/b/p/free-size-st0065-stolevilla-original-imagfxhcvbhuma2b.jpeg?q=70",
             price: "click",
         },
         {
-            title: "BERLOOK",
-            img: "https://www.codespotr.com/wp-content/uploads/2023/02/BERLOOK-Code.png",
+            title: "Tops",
+            img: "https://rukminim1.flixcart.com/image/612/612/l572ufk0/scarf/3/b/p/free-size-st0065-stolevilla-original-imagfxhcvbhuma2b.jpeg?q=70",
             price: "BERLOOK",
         },
         {
-            title: "Florence",
-            img: "https://www.couponcodetreasure.com/wp-content/uploads/2022/08/Florence-by-Mills-Coupon-Code.png",
+            title: "Hoodies",
+            img: "https://rukminim1.flixcart.com/image/612/612/kx9as280/sweatshirt/5/m/m/s-kttwomensweatshirt154-kotty-original-imag9r5v5a4bxqud.jpeg?q=70",
             price: "click to see",
         },
         {
-            title: "moodytiger",
-            img: "https://www.codespotr.com/wp-content/uploads/2023/03/moodytiger-Coupon-Code.png",
+            title: "Jeans",
+            img: "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/2/y/4/38-jegg-l-blue1-zayla-original-imagn36fqvcztkkc.jpeg?q=70",
             price: "see",
         },
         {
-            title: "moodytiger",
-            img: "https://www.codespotr.com/wp-content/uploads/2023/03/moodytiger-Coupon-Code.png",
+            title: "Crops",
+            img: "https://rukminim1.flixcart.com/image/612/612/kflftzk0hlty2aw-0/shirt/m/8/j/s-1-sys-4001-funday-fashion-original-imafw7ks3kkvqzpy.jpeg?q=70",
             price: "click",
         },
         {
-            title: "BERLOOK",
-            img: "https://www.codespotr.com/wp-content/uploads/2023/02/BERLOOK-Code.png",
+            title: "Tshirts",
+            img: "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/n/m/h/m-8339501-roadster-original-imafgmmpvubtg2pu-bb.jpeg?q=70",
             price: "BERLOOK",
         }
 
