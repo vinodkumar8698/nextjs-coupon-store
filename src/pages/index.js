@@ -1,7 +1,7 @@
 import { lazy } from 'react'
 import Head from 'next/head'
 const NavbarComp = lazy(() => import('@/components/Navbar/NavbarComp'))
-const CarouselComp = lazy(() => import("@/components/Carosel/Carousel"))
+import CarouselComp from "@/components/Carosel/Carousel"
 const FeaturedBrands = lazy(() => import("@/components/FeaturedBrands/FeaturedBrands"))
 const Footer = lazy(() => import('@/components/Footer/Footer'))
 const MenOffers = lazy(() => import("../components/MensOffer/MensOffer.js"))

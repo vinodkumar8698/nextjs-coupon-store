@@ -3,6 +3,7 @@ import { NextUIProvider, createTheme } from '@nextui-org/react';
 import "../styles/Global.css"
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { useSSR } from '@nextui-org/react'
 const theme = createTheme({
   type: "light", // it could be "light" or "dark"
   theme: {
@@ -14,11 +15,14 @@ const theme = createTheme({
   }
 })
 function MyApp({ Component, pageProps }) {
+  const { isBrowser } = useSSR()
   return (
     // 2. Use at the root of your app
-    <NextUIProvider theme={theme}>
-      <Component {...pageProps} />
-    </NextUIProvider>
+    isBrowser && (
+      <NextUIProvider theme={theme}>
+        <Component {...pageProps} />
+      </NextUIProvider>
+    )
   );
 }
 
