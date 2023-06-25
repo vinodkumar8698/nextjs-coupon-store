@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Wow Coupons</title>
+        <title>APK Mods</title>
         <meta name="description" content="Wow Coupons" />
         <meta name="google-site-verification" content="ajyfXdiEBoYMdu6TbRw0hVlY6VrQVDiyWQfRgJVZEaU" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
