@@ -13,6 +13,7 @@ export default function Home() {
       <Head>
         <title>Wow Coupons</title>
         <meta name="description" content="Wow Coupons" />
+    <meta name="google-site-verification" content="ajyfXdiEBoYMdu6TbRw0hVlY6VrQVDiyWQfRgJVZEaU" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
